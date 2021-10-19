@@ -1,0 +1,453 @@
+fileFormatVersion: 2
+guid: 6b9d43a0026914e45ba98d4c8755426d
+timeCreated: 1618556799
+licenseType: Free
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: AI_hapticOn
+  - first:
+      213: 21300002
+    second: AE_soundOn
+  - first:
+      213: 21300004
+    second: AD_rgpd
+  - first:
+      213: 21300006
+    second: AF_soundOff
+  - first:
+      213: 21300008
+    second: AR_circle_load
+  - first:
+      213: 21300010
+    second: AH_restore
+  - first:
+      213: 21300012
+    second: AJ_hapticOff
+  externalObjects: {}
+  usedFileIDs: []
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AI_hapticOn
+      rect:
+        serializedVersion: 2
+        x: 289.5
+        y: 994.5
+        width: 39.5
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.75, y: -14.5}
+        - {x: -19.75, y: 14.5}
+        - {x: 19.75, y: 14.5}
+        - {x: 19.75, y: -14.5}
+      physicsShape:
+      - - {x: 13.5, y: 15.5}
+        - {x: -8.5, y: 15.5}
+        - {x: -11.5, y: 12.5}
+        - {x: -11.5, y: -14.5}
+        - {x: 17.5, y: -14.5}
+        - {x: 20.5, y: -11.5}
+        - {x: 20.5, y: 12.5}
+        - {x: 19.5, y: 13.5}
+      - - {x: -4.5, y: 8.5}
+        - {x: -4.5, y: 6.5}
+        - {x: 5.5, y: -8.5}
+        - {x: -4.5, y: -8.5}
+      - - {x: -13.5, y: 10.5}
+        - {x: -19.5, y: 10.5}
+        - {x: -19.5, y: -5.5}
+        - {x: -15.5, y: -7.5}
+        - {x: -13.5, y: -7.5}
+        - {x: -11.5, y: -5.5}
+        - {x: -11.5, y: 8.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170a7c0fc16d482fbd0e306e486fb9f9
+      internalID: 21300000
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AE_soundOn
+      rect:
+        serializedVersion: 2
+        x: 162.5
+        y: 1000.5
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -11.5}
+        - {x: -15, y: 11.5}
+        - {x: 15, y: 11.5}
+        - {x: 15, y: -11.5}
+      physicsShape:
+      - - {x: -4, y: 12.5}
+        - {x: -15, y: 6.5}
+        - {x: -15, y: -5.5}
+        - {x: -9, y: -11.5}
+        - {x: 16, y: -11.5}
+        - {x: 16, y: 12.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5cf9d8c7ee4443b5f4736420d87cdd
+      internalID: 21300002
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AD_rgpd
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 988.5
+        width: 29.5
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.75, y: -17.5}
+        - {x: -14.75, y: 17.5}
+        - {x: 14.75, y: 17.5}
+        - {x: 14.75, y: -17.5}
+      physicsShape:
+      - - {x: -9.999999, y: 18.5}
+        - {x: -15, y: 15.5}
+        - {x: -15, y: -13.5}
+        - {x: -6, y: -17.5}
+        - {x: 7, y: -17.5}
+        - {x: 15, y: -9.5}
+        - {x: 15, y: 13.5}
+        - {x: 6, y: 18.5}
+      - - {x: -1, y: -2.5}
+        - {x: 3, y: 1.5}
+        - {x: 2, y: 1.5}
+        - {x: -4, y: -1.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57696723d7984b709c7e973b48d4b492
+      internalID: 21300004
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_soundOff
+      rect:
+        serializedVersion: 2
+        x: 193.5
+        y: 999.5
+        width: 36
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -12}
+        - {x: -18, y: 12}
+        - {x: 18, y: 12}
+        - {x: 18, y: -12}
+      physicsShape:
+      - - {x: 19, y: 2}
+        - {x: 19, y: 13}
+        - {x: -11, y: 13}
+        - {x: -18, y: 11}
+        - {x: -18, y: -5}
+        - {x: -14, y: -5}
+        - {x: -18, y: -8}
+        - {x: -18, y: -11}
+        - {x: -17, y: -12}
+        - {x: 11, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19fc145d1374608bd53b3622cf85b41
+      internalID: 21300006
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR_circle_load
+      rect:
+        serializedVersion: 2
+        x: 65.5
+        y: 691
+        width: 259
+        height: 259
+      alignment: 9
+      pivot: {x: 0.4990348, y: 0.4990348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -126.25, y: 123.25}
+        - {x: -129.25, y: 122.25}
+        - {x: -129.25, y: 129.25}
+        - {x: -126.25, y: 129.25}
+      - - {x: -129.25, y: -96.75}
+        - {x: -129.25, y: 87.25}
+        - {x: -118.25, y: 129.25}
+        - {x: 117.75, y: 129.25}
+        - {x: 129.75, y: 89.25}
+        - {x: 129.75, y: -100.75}
+        - {x: 73.75, y: -129.75}
+        - {x: -67.25, y: -129.75}
+      physicsShape:
+      - - {x: 78.75, y: -106.75}
+        - {x: 92.75, y: -94.75}
+        - {x: 107.75, y: -78.75}
+        - {x: 123.75, y: -50.75}
+        - {x: 127.75, y: -34.75}
+        - {x: 129.75, y: -25.75}
+        - {x: 129.75, y: 24.25}
+        - {x: 128.75, y: 29.25}
+        - {x: 123.75, y: 47.25}
+        - {x: 113.75, y: 67.25}
+        - {x: 108.75, y: 76.25}
+        - {x: 87.75, y: 99.25}
+        - {x: 67.75, y: 113.25}
+        - {x: 48.75, y: 122.25}
+        - {x: 36.75, y: 127.25}
+        - {x: 22.75, y: 129.25}
+        - {x: -21.25, y: 129.25}
+        - {x: -36.25, y: 126.25}
+        - {x: -48.25, y: 122.25}
+        - {x: -63.25, y: 115.25}
+        - {x: -74.25, y: 108.25}
+        - {x: -82.25, y: 101.25}
+        - {x: -100.25, y: 84.25}
+        - {x: -113.25, y: 68.25}
+        - {x: -123.25, y: 48.25}
+        - {x: -129.25, y: 25.25}
+        - {x: -129.25, y: -22.75}
+        - {x: -128.25, y: -32.75}
+        - {x: -122.25, y: -51.75}
+        - {x: -104.25, y: -81.75}
+        - {x: -80.24999, y: -105.75}
+        - {x: -64.25, y: -116.75}
+        - {x: -37.25, y: -127.75}
+        - {x: -29.25, y: -128.75}
+        - {x: -25.25, y: -129.75}
+        - {x: 25.75, y: -129.75}
+        - {x: 35.75, y: -128.75}
+        - {x: 49.75, y: -122.75}
+        - {x: 66.74999, y: -114.75}
+      - - {x: -24.25, y: -103.75}
+        - {x: -40.24999, y: -98.74999}
+        - {x: -59.24999, y: -87.75}
+        - {x: -79.25, y: -69.75}
+        - {x: -92.24999, y: -52.74999}
+        - {x: -98.24999, y: -38.75}
+        - {x: -104.25, y: -15.75}
+        - {x: -105.25, y: 13.25}
+        - {x: -104.25, y: 14.25}
+        - {x: -101.25, y: 29.25}
+        - {x: -88.25, y: 58.25}
+        - {x: -81.25, y: 67.25}
+        - {x: -66.25, y: 82.25}
+        - {x: -52.25, y: 91.25}
+        - {x: -33.25, y: 100.25}
+        - {x: -15.25, y: 104.25}
+        - {x: 14.75, y: 104.25}
+        - {x: 21.75, y: 102.25}
+        - {x: 41.75, y: 98.24999}
+        - {x: 54.75, y: 90.25}
+        - {x: 70.75, y: 79.24999}
+        - {x: 80.75, y: 69.25}
+        - {x: 91.74999, y: 54.25}
+        - {x: 98.74999, y: 36.25}
+        - {x: 103.75, y: 18.25}
+        - {x: 105.75, y: 9.250004}
+        - {x: 105.75, y: -12.75}
+        - {x: 99.75, y: -40.75}
+        - {x: 90.75, y: -56.75}
+        - {x: 83.75, y: -65.75}
+        - {x: 71.75, y: -78.75}
+        - {x: 53.75, y: -92.74999}
+        - {x: 38.75, y: -99.75}
+        - {x: 13.75, y: -105.75}
+        - {x: -11.25, y: -106.75}
+        - {x: -12.25, y: -105.75}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2acf77fefd1416499e87e0971c494fc
+      internalID: 21300008
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AH_restore
+      rect:
+        serializedVersion: 2
+        x: 260.5
+        y: 994
+        width: 28
+        height: 29.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -14.75}
+        - {x: -14, y: 14.75}
+        - {x: 14, y: 14.75}
+        - {x: 14, y: -14.75}
+      physicsShape:
+      - - {x: -6, y: 15}
+        - {x: -14, y: 9}
+        - {x: -14, y: -15}
+        - {x: 15, y: -15}
+        - {x: 15, y: 7}
+        - {x: 12, y: 15}
+      - - {x: 1, y: -1}
+        - {x: 3, y: -2}
+        - {x: 2, y: -1}
+        - {x: 1, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6962c9fb19bb4a109d8347fa12399497
+      internalID: 21300010
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AJ_hapticOff
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 994.5
+        width: 39.5
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.75, y: -14.5}
+        - {x: -19.75, y: 14.5}
+        - {x: 19.75, y: 14.5}
+        - {x: 19.75, y: -14.5}
+      physicsShape:
+      - - {x: 12, y: -5.5}
+        - {x: 13, y: -8.5}
+        - {x: 20, y: -5.5}
+        - {x: 20, y: 14.5}
+        - {x: 17, y: 15.5}
+        - {x: -18, y: 15.5}
+        - {x: -20, y: 13.5}
+        - {x: -20, y: -14.5}
+        - {x: 11, y: -14.5}
+        - {x: 12, y: -12.5}
+        - {x: 12, y: 0.5}
+      - - {x: 3, y: -5.5}
+        - {x: 5, y: -8.5}
+        - {x: -5, y: -8.5}
+        - {x: -5, y: -9.5}
+      - - {x: -6, y: 8.5}
+        - {x: -5, y: 7.5}
+        - {x: 4, y: 7.5}
+        - {x: 2, y: 6.5}
+        - {x: -5, y: 2.5}
+        - {x: -6, y: 0.5}
+        - {x: -5, y: 0.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2596769dba964ab9bd63d1731d22ec8d
+      internalID: 21300012
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag:
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

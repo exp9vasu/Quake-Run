@@ -1,0 +1,4 @@
+app_identifier("{{APP_ID}}")
+apple_id("{{APPLE_ID}}")
+itc_team_id("{{ITC_TEAM_ID}}")
+team_id("{{TEAM_ID}}")

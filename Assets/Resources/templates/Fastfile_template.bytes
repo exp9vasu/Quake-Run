@@ -1,0 +1,103 @@
+default_platform(:ios)
+
+platform :ios do
+	lane :export do
+		produce(
+			app_name: "{{APP_NAME}}"
+		)
+		match(
+			git_url:"git@bitbucket.org:madboxgames/signing_identity.git",
+			git_branch:"{{MATCH_BRANCH}}",
+			type:"adhoc",
+			app_identifier:"{{IOS_APP_IDENTIFIER}}"
+		)
+		update_code_signing_settings(
+			use_automatic_signing: true,
+			path: "./Builds/iOS/Unity-iPhone.xcodeproj"
+		)
+		build_app(
+			export_method: "ad-hoc",
+			codesigning_identity: "iPhone Developer",
+			{{PROJECT_KEY}}: "{{PROJECT_PATH}}",
+			xcargs: "-allowProvisioningUpdates"
+		)
+	end
+
+	lane :build do
+		produce(
+			app_name: "{{APP_NAME}}"
+		)
+		match(
+			git_url:"git@bitbucket.org:madboxgames/signing_identity.git",
+			git_branch:"{{MATCH_BRANCH}}",
+			type:"appstore",
+			app_identifier:"{{IOS_APP_IDENTIFIER}}"
+		)
+		update_code_signing_settings(
+			use_automatic_signing: true,
+			path: "./Builds/iOS/Unity-iPhone.xcodeproj"
+		)
+		build_app(
+			export_method: "app-store",
+			codesigning_identity: "iPhone Developer",
+			{{PROJECT_KEY}}: "{{PROJECT_PATH}}",
+			xcargs: "-allowProvisioningUpdates"
+		)
+	end
+
+	lane :upload do
+		upload_to_testflight(
+			skip_waiting_for_build_processing: true
+		)
+	end
+
+	lane :beta do
+		build
+		upload
+	end
+end
+
+
+platform :android do
+	lane :export do
+		gradle(
+			project_dir: './Builds/Android',
+			task: 'launcher:assemble',
+			build_type: 'Release',
+			properties: {
+				"android.injected.signing.store.file" => "{{ANDROID_STORE_FILE}}",
+				"android.injected.signing.store.password" => "{{ANDROID_STORE_PASSWORD}}",
+				"android.injected.signing.key.alias" => "{{KEY_STORE_NAME}}",
+				"android.injected.signing.key.password" => "{{KEY_STORE_PASSWORD}}"
+			}
+		)
+	end
+
+	lane :build do
+		gradle(
+			project_dir: './Builds/Android',
+			task: 'bundle',
+			build_type: 'Release',
+			properties: {
+				"android.injected.signing.store.file" => "{{ANDROID_STORE_FILE}}",
+				"android.injected.signing.store.password" => "{{ANDROID_STORE_PASSWORD}}",
+				"android.injected.signing.key.alias" => "{{KEY_STORE_NAME}}",
+				"android.injected.signing.key.password" => "{{KEY_STORE_PASSWORD}}"
+			}
+		)
+	end
+
+	lane :upload do
+		upload_to_play_store(
+			track: "internal",
+			package_name: "{{ANDROID_APP_IDENTIFIER}}",
+			aab: "./Builds/Android/launcher/build/outputs/bundle/release/launcher.aab",
+			json_key: "{{ANDROID_JSON_KEY}}"
+		)
+	end
+
+	lane :beta do
+		build
+		upload
+	end
+end

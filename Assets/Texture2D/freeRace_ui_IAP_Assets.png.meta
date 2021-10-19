@@ -1,0 +1,292 @@
+fileFormatVersion: 2
+guid: bf9eae60565ecd443b97ee02776efe1a
+timeCreated: 1618556800
+licenseType: Free
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: freeRace_ui_IAP_Assets_4
+  - first:
+      213: 21300002
+    second: freeRace_ui_IAP_Assets_2
+  - first:
+      213: 21300004
+    second: freeRace_ui_IAP_Assets_5
+  - first:
+      213: 21300006
+    second: freeRace_ui_IAP_Assets_1
+  externalObjects: {}
+  usedFileIDs: []
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: freeRace_ui_IAP_Assets_4
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 151
+        width: 135
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: -74}
+        - {x: -67.5, y: -53}
+        - {x: -67.5, y: 31}
+        - {x: -46.5, y: 62}
+        - {x: -10.5, y: 74}
+        - {x: 20.5, y: 74}
+        - {x: 43.5, y: 65}
+        - {x: 67.5, y: 49}
+        - {x: 67.5, y: -35}
+        - {x: 58.5, y: -74}
+      physicsShape:
+      - - {x: 49.5, y: -49}
+        - {x: 67.5, y: -30}
+        - {x: 67.5, y: 29}
+        - {x: 53.5, y: 42}
+        - {x: 44.5, y: 64}
+        - {x: 20.5, y: 64}
+        - {x: 7.5, y: 74}
+        - {x: -4.5, y: 74}
+        - {x: -19.5, y: 66}
+        - {x: -47.5, y: 62}
+        - {x: -50.5, y: 42}
+        - {x: -66.5, y: 34}
+        - {x: -67.5, y: 32}
+        - {x: -67.5, y: 8}
+        - {x: -66.5, y: 7}
+        - {x: -67.5, y: 1}
+        - {x: -67.5, y: -29}
+        - {x: -59.5, y: -35}
+        - {x: -48.5, y: -59}
+        - {x: -37.5, y: -66}
+        - {x: -15.5, y: -66.99999}
+        - {x: -5.5, y: -74}
+        - {x: 6.5, y: -74}
+        - {x: 19.5, y: -64}
+        - {x: 39.5, y: -65}
+        - {x: 46.5, y: -60}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65534233b5564975b6ca7d4ae13a1afb
+      internalID: 21300000
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeRace_ui_IAP_Assets_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 357
+        width: 683
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 341.5, y: -113.5}
+        - {x: -341.5, y: -113.5}
+        - {x: -341.5, y: 113.5}
+        - {x: 336.5, y: 113.5}
+        - {x: 341.5, y: 111.5}
+      physicsShape:
+      - - {x: -341.5, y: 113.5}
+        - {x: -341.5, y: -113.5}
+        - {x: 337.5, y: -113.5}
+        - {x: 341.5, y: -106.5}
+        - {x: 341.5, y: 113.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa81c07385db4e55b6c6f5115930ac57
+      internalID: 21300002
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeRace_ui_IAP_Assets_5
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 98.04291
+        width: 239.9733
+        height: 189.9571
+      alignment: 9
+      pivot: {x: 0.5188078, y: 0.4972549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.9866, y: -95.02145}
+        - {x: -119.9866, y: -90.02145}
+        - {x: -119.9866, y: 10.97854}
+        - {x: -34.98663, y: 94.97855}
+        - {x: 73.01337, y: 94.97855}
+        - {x: 120.0134, y: 80.97855}
+        - {x: 120.0134, y: -51.02145}
+        - {x: 77.01337, y: -95.02145}
+      physicsShape:
+      - - {x: 98.01337, y: -64.02145}
+        - {x: 107.0134, y: -51.02145}
+        - {x: 110.0134, y: -46.02145}
+        - {x: 119.0134, y: -16.02146}
+        - {x: 119.0134, y: 3.978545}
+        - {x: 116.0134, y: 26.97854}
+        - {x: 101.0134, y: 57.97854}
+        - {x: 95.01337, y: 64.97855}
+        - {x: 69.01337, y: 85.97855}
+        - {x: 42.01337, y: 94.97855}
+        - {x: 15.01338, y: 94.97855}
+        - {x: -3.986624, y: 90.97855}
+        - {x: -15.98662, y: 85.97855}
+        - {x: -46.98663, y: 63.97855}
+        - {x: -66.98663, y: 29.97854}
+        - {x: -70.98663, y: -9.021456}
+        - {x: -92.98663, y: -9.021456}
+        - {x: -99.98662, y: -12.02145}
+        - {x: -115.9866, y: -31.02146}
+        - {x: -119.9866, y: -32.02145}
+        - {x: -119.9866, y: -65.02145}
+        - {x: -116.9866, y: -66.02145}
+        - {x: -99.98662, y: -66.02145}
+        - {x: -99.98662, y: -84.02145}
+        - {x: -96.98663, y: -87.02145}
+        - {x: -89.98663, y: -90.02145}
+        - {x: -57.98663, y: -89.02145}
+        - {x: -41.98663, y: -66.02145}
+        - {x: -38.98663, y: -70.02145}
+        - {x: -30.98662, y: -79.02145}
+        - {x: -5.986624, y: -90.02145}
+        - {x: 3.013376, y: -95.02145}
+        - {x: 39.01337, y: -95.02145}
+        - {x: 53.01337, y: -94.02145}
+        - {x: 62.01337, y: -90.02145}
+        - {x: 84.01337, y: -79.02145}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81055c2e1467468891e017a081921544
+      internalID: 21300004
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeRace_ui_IAP_Assets_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 632
+        width: 233
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.5, y: -190.5}
+        - {x: -116.5, y: -153.5}
+        - {x: -116.5, y: 190.5}
+        - {x: 116.5, y: 190.5}
+        - {x: 116.5, y: -190.5}
+      physicsShape:
+      - - {x: -116.5, y: 190.5}
+        - {x: -116.5, y: -118.5}
+        - {x: -107.5, y: -185.5}
+        - {x: -101.5, y: -190.5}
+        - {x: 116.5, y: -190.5}
+        - {x: 116.5, y: 190.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538388cf07814059b24957d669db17ac
+      internalID: 21300006
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag:
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

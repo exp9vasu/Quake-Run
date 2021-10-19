@@ -1,0 +1,1015 @@
+fileFormatVersion: 2
+guid: 17359ba77628b694687f413e6ca122d1
+timeCreated: 1618556797
+licenseType: Free
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: BA_hexaFlag_US
+  - first:
+      213: 21300002
+    second: AZ_hexaFlag_JP
+  - first:
+      213: 21300004
+    second: AH_btnGreen
+  - first:
+      213: 21300006
+    second: BH_btnDailyRaceLock
+  - first:
+      213: 21300008
+    second: AR_LineGradient
+  - first:
+      213: 21300010
+    second: AG_checkMark
+  - first:
+      213: 21300012
+    second: AX_progressCaseGold
+  - first:
+      213: 21300014
+    second: BM_CN_btnDailyRaceLock
+  - first:
+      213: 21300016
+    second: AO_InfoBulleBig
+  - first:
+      213: 21300018
+    second: AI_btnBlue
+  - first:
+      213: 21300020
+    second: AP_InfoBulleSmall
+  - first:
+      213: 21300022
+    second: AW_progressCaseGrey
+  - first:
+      213: 21300024
+    second: AI_btnPurple
+  - first:
+      213: 21300026
+    second: AY_hexaFlag_FR
+  - first:
+      213: 21300028
+    second: BA_hexaFlag_BZL
+  - first:
+      213: 21300030
+    second: AL_progressBar
+  - first:
+      213: 21300032
+    second: AN_PointJauge
+  - first:
+      213: 21300034
+    second: AV_progressCaseViolet
+  - first:
+      213: 21300036
+    second: AM_progressBarJauge
+  - first:
+      213: 21300038
+    second: AT_CountTimeBG
+  externalObjects: {}
+  usedFileIDs: []
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BA_hexaFlag_US
+      rect:
+        serializedVersion: 2
+        x: 313.0761
+        y: 556
+        width: 112.9239
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5040908, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.538053, y: -64}
+        - {x: -56.53805, y: -38}
+        - {x: -56.53805, y: 39}
+        - {x: -9.538053, y: 64}
+        - {x: 15.46195, y: 64}
+        - {x: 56.46195, y: 35}
+        - {x: 56.46195, y: -34}
+        - {x: 15.46195, y: -64}
+      physicsShape:
+      - - {x: 56.46195, y: 32}
+        - {x: 54.46194, y: 35}
+        - {x: 14.46195, y: 58}
+        - {x: 5.461947, y: 64}
+        - {x: -3.538053, y: 64}
+        - {x: -6.538053, y: 63}
+        - {x: -20.53805, y: 54}
+        - {x: -50.53805, y: 36}
+        - {x: -55.53805, y: 32}
+        - {x: -55.53805, y: -32}
+        - {x: -53.53805, y: -35}
+        - {x: -12.53805, y: -60}
+        - {x: -3.538053, y: -64}
+        - {x: 6.461947, y: -64}
+        - {x: 13.46195, y: -59}
+        - {x: 51.46195, y: -37}
+        - {x: 56.46195, y: -33}
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1bc37be80e408f9785b95740acf877
+      internalID: 21300000
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZ_hexaFlag_JP
+      rect:
+        serializedVersion: 2
+        x: 706.0761
+        y: 518
+        width: 112.9239
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5040908, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.53805, y: -64}
+        - {x: -56.53805, y: -49}
+        - {x: -56.53805, y: 43}
+        - {x: -8.538053, y: 64}
+        - {x: 22.46195, y: 64}
+        - {x: 56.46195, y: 38}
+        - {x: 56.46195, y: -40}
+        - {x: 32.46195, y: -64}
+      physicsShape:
+      - - {x: 56.46195, y: -33}
+        - {x: 56.46195, y: 32}
+        - {x: 54.46194, y: 35}
+        - {x: 3.461947, y: 64}
+        - {x: -2.538053, y: 64}
+        - {x: -20.53805, y: 54}
+        - {x: -55.53805, y: 33}
+        - {x: -55.53805, y: -32}
+        - {x: -53.53805, y: -35}
+        - {x: -45.53805, y: -40}
+        - {x: -3.538053, y: -64}
+        - {x: 4.461947, y: -64}
+        - {x: 20.46194, y: -55}
+        - {x: 41.46195, y: -43}
+        - {x: 53.46194, y: -36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d18af26e45440e8f626faff3017b90
+      internalID: 21300002
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AH_btnGreen
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 708
+        width: 274
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5072992, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -136, y: -36}
+        - {x: -137, y: -8.999999}
+        - {x: -137, y: 44}
+        - {x: -136, y: 46}
+        - {x: -129, y: 50}
+        - {x: 131, y: 50}
+        - {x: 137, y: 31}
+        - {x: 137, y: -44}
+        - {x: 133, y: -50}
+        - {x: -126, y: -50}
+        - {x: -129, y: -49}
+      physicsShape:
+      - - {x: 124, y: 45}
+        - {x: -129, y: 45}
+        - {x: -129, y: -37}
+        - {x: 129, y: -37}
+        - {x: 129, y: -17}
+        - {x: 125, y: 44}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d361009611d041b98d974dc500a9e90c
+      internalID: 21300004
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BH_btnDailyRaceLock
+      rect:
+        serializedVersion: 2
+        x: 21.07612
+        y: 754.0267
+        width: 152.9239
+        height: 125.9303
+      alignment: 9
+      pivot: {x: 0.02892864, y: 0.5000643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67.53806, y: -62.99191}
+        - {x: -72.53806, y: -57.99191}
+        - {x: -69.53806, y: -20.99191}
+        - {x: -65.53806, y: -19.99191}
+        - {x: -62.53806, y: -16.99191}
+        - {x: -68.53806, y: -17.99191}
+        - {x: -74.53806, y: -12.99191}
+        - {x: -76.53806, y: -2.991909}
+        - {x: -76.53806, y: 53.00809}
+        - {x: -75.53806, y: 62.00809}
+        - {x: -60.53806, y: 63.00809}
+        - {x: 52.46194, y: 63.00809}
+        - {x: 60.46194, y: -1.991909}
+        - {x: 74.46194, y: -7.991909}
+        - {x: 76.46194, y: -19.99191}
+        - {x: 76.46194, y: -57.99191}
+        - {x: 69.46194, y: -62.99191}
+      physicsShape:
+      - - {x: 76.46194, y: -25.99191}
+        - {x: 73.46194, y: -13.99191}
+        - {x: 60.46194, y: -1.991909}
+        - {x: 39.46194, y: -8.991908}
+        - {x: 32.46194, y: -20.99191}
+        - {x: 29.46194, y: -14.99191}
+        - {x: 26.46194, y: -11.99191}
+        - {x: 21.46194, y: -11.99191}
+        - {x: 27.46194, y: -11.99191}
+        - {x: 33.46194, y: -8.991908}
+        - {x: 39.46194, y: -2.991909}
+        - {x: 38.46194, y: 11.00809}
+        - {x: 43.46194, y: 27.00809}
+        - {x: 33.46194, y: 30.00809}
+        - {x: 45.46194, y: 54.00809}
+        - {x: 46.46194, y: 61.00809}
+        - {x: 42.46194, y: 63.00809}
+        - {x: 20.46194, y: 63.00809}
+        - {x: -9.538055, y: 62.00809}
+        - {x: -28.53806, y: 60.00809}
+        - {x: -62.53806, y: 60.00809}
+        - {x: -74.53806, y: 49.00809}
+        - {x: -75.53806, y: 34.00809}
+        - {x: -75.53806, y: 21.00809}
+        - {x: -71.53806, y: 19.00809}
+        - {x: -68.53806, y: 19.00809}
+        - {x: -71.53806, y: -3.991909}
+        - {x: -72.53806, y: -11.99191}
+        - {x: -68.53806, y: -15.99191}
+        - {x: -62.53806, y: -15.99191}
+        - {x: -55.53806, y: -12.99191}
+        - {x: -53.53806, y: -14.99191}
+        - {x: -45.53806, y: -14.99191}
+        - {x: -58.53806, y: -14.99191}
+        - {x: -64.53806, y: -19.99191}
+        - {x: -68.53806, y: -31.99191}
+        - {x: -68.53806, y: -58.99191}
+        - {x: -67.53806, y: -61.99191}
+        - {x: -26.53806, y: -61.99191}
+        - {x: 0.4619446, y: -59.99191}
+        - {x: 19.46194, y: -57.99191}
+        - {x: 28.46194, y: -57.99191}
+        - {x: 24.46194, y: -57.99191}
+        - {x: 32.46194, y: -61.99191}
+        - {x: 66.46194, y: -61.99191}
+        - {x: 69.46194, y: -60.99191}
+        - {x: 76.46194, y: -52.99191}
+      - - {x: 7.461937, y: -44.99191}
+        - {x: 7.461937, y: -41.99191}
+        - {x: 6.461945, y: -45.99191}
+      - - {x: -19.53806, y: -16.99191}
+        - {x: -23.53806, y: -12.99191}
+        - {x: -33.53806, y: -12.99191}
+        - {x: -38.53806, y: -13.99191}
+        - {x: -39.53806, y: -14.99191}
+        - {x: -37.53806, y: -15.99191}
+        - {x: -32.53806, y: -11.99191}
+        - {x: -29.53806, y: -10.99191}
+        - {x: -25.53806, y: -14.99191}
+        - {x: -18.53806, y: -14.99191}
+        - {x: -16.53806, y: -12.99191}
+        - {x: -15.53806, y: -13.99191}
+        - {x: 3.461945, y: -13.99191}
+        - {x: 6.461945, y: -11.99191}
+        - {x: 4.461945, y: -10.99191}
+        - {x: -13.53806, y: -11.99191}
+        - {x: -16.53806, y: -12.99191}
+        - {x: -20.53806, y: -17.99191}
+        - {x: -19.53806, y: -17.99191}
+      - - {x: 1.461937, y: 6.008091}
+        - {x: 4.461945, y: 5.008091}
+        - {x: 0.4619446, y: 5.008091}
+      - - {x: -32.53806, y: 20.00809}
+        - {x: -36.53806, y: 24.00809}
+        - {x: -30.53806, y: 21.00809}
+        - {x: -33.53806, y: 18.00809}
+        - {x: -32.53806, y: 18.00809}
+      - - {x: -11.53806, y: 22.00809}
+        - {x: -12.53806, y: 21.00809}
+      - - {x: 10.46194, y: 52.00809}
+        - {x: 9.461945, y: 51.00809}
+        - {x: 10.46194, y: 50.00809}
+        - {x: 10.46194, y: 47.00809}
+        - {x: 9.461945, y: 41.00809}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a431a1f7c3f466284ff7a5d2ec0dadf
+      internalID: 21300006
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR_LineGradient
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 308
+        width: 15
+        height: 715
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4825175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: -357.5}
+        - {x: -7.5, y: 357.5}
+        - {x: 7.5, y: 357.5}
+        - {x: 7.5, y: -357.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddfeb6f0dd94c6894202b4ca37dee34
+      internalID: 21300008
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AG_checkMark
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 916.0267
+        width: 113.9436
+        height: 106.9733
+      alignment: 9
+      pivot: {x: 0.5090237, y: 0.485853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.97181, y: -53.51336}
+        - {x: -56.97181, y: -15.51336}
+        - {x: -56.97181, y: 53.48664}
+        - {x: 57.02819, y: 53.48664}
+        - {x: 57.02819, y: 3.486645}
+        - {x: 2.028189, y: -53.51336}
+      physicsShape:
+      - - {x: 21.02819, y: 52.48664}
+        - {x: -38.97181, y: 35.48664}
+        - {x: -56.97181, y: 12.48664}
+        - {x: -56.97181, y: -10.51336}
+        - {x: -15.97181, y: -51.51336}
+        - {x: 18.02819, y: -51.51336}
+        - {x: 55.02819, y: 6.486645}
+        - {x: 55.02819, y: 43.48664}
+        - {x: 35.02819, y: 52.48664}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebf0bdd0ca5405bb3a6a3311ab96d6d
+      internalID: 21300010
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AX_progressCaseGold
+      rect:
+        serializedVersion: 2
+        x: 771.0513
+        y: 767.0761
+        width: 109.8726
+        height: 99.84776
+      alignment: 9
+      pivot: {x: 0.5001127, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.98762, y: -46.99999}
+        - {x: -54.98762, y: -9.999994}
+        - {x: -54.98762, y: 50.00001}
+        - {x: 41.01238, y: 50.00001}
+        - {x: 52.01238, y: 49.00001}
+        - {x: 55.01238, y: 2.000006}
+        - {x: 55.01238, y: -49.99999}
+        - {x: -44.98762, y: -49.99999}
+      physicsShape:
+      - - {x: 43.01238, y: 47.00001}
+        - {x: 41.01238, y: 49}
+        - {x: -48.98761, y: 49}
+        - {x: -50.98762, y: 48.00001}
+        - {x: -50.98762, y: 33.00001}
+        - {x: -48.98761, y: 25.00001}
+        - {x: -39.98761, y: -42.99999}
+        - {x: -37.98762, y: -43.99999}
+        - {x: 52.01238, y: -43.99999}
+        - {x: 54.01238, y: -41.99999}
+        - {x: 54.01238, y: -36.99999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7c4e208c7a4f7d9c118552e998f1ec
+      internalID: 21300012
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BM_CN_btnDailyRaceLock
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 23
+        width: 119.9239
+        height: 136.9733
+      alignment: 9
+      pivot: {x: -0.1375873, y: 0.503748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.96194, y: -68.48663}
+        - {x: -59.96194, y: -53.48663}
+        - {x: -59.96194, y: 35.51337}
+        - {x: -56.96194, y: 68.51337}
+        - {x: 42.03805, y: 68.51337}
+        - {x: 60.03806, y: -8.486625}
+        - {x: 60.03806, y: -56.48663}
+        - {x: 57.03806, y: -68.48663}
+      physicsShape:
+      - - {x: 13.03806, y: -60.48663}
+        - {x: 17.03806, y: -64.48663}
+        - {x: 50.03806, y: -65.48663}
+        - {x: 59.03806, y: -57.48663}
+        - {x: 59.03806, y: -31.48662}
+        - {x: 58.03806, y: -20.48662}
+        - {x: 44.03805, y: -6.486624}
+        - {x: 31.03805, y: -7.486624}
+        - {x: 29.03805, y: 27.51337}
+        - {x: 33.03806, y: 46.51337}
+        - {x: 28.03805, y: 63.51337}
+        - {x: 21.03806, y: 67.51337}
+        - {x: -6.961945, y: 67.51337}
+        - {x: -50.96194, y: 65.51337}
+        - {x: -58.96194, y: 59.51337}
+        - {x: -58.96194, y: -7.486624}
+        - {x: -59.96194, y: -9.486624}
+        - {x: -59.96194, y: -43.48663}
+        - {x: -43.96194, y: -48.48662}
+        - {x: -42.96195, y: -64.48663}
+        - {x: -37.96194, y: -68.48663}
+        - {x: 5.038055, y: -68.48663}
+        - {x: 10.03806, y: -65.48663}
+        - {x: 13.03806, y: -44.48663}
+      - - {x: -20.96194, y: 18.51338}
+        - {x: -19.96194, y: 19.51338}
+        - {x: -15.96195, y: 20.51337}
+        - {x: -14.96194, y: 19.51338}
+        - {x: -14.96194, y: 20.51337}
+        - {x: -16.96195, y: 18.51338}
+        - {x: -20.96194, y: 18.51338}
+        - {x: -21.96194, y: 17.51338}
+        - {x: -20.96194, y: 17.51338}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013b13fa31284e348dbd8a04b8e1c6f7
+      internalID: 21300014
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AO_InfoBulleBig
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 686
+        width: 228
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -101, y: -40.5}
+        - {x: -114, y: -30.5}
+        - {x: -114, y: 40.5}
+        - {x: 114, y: 40.5}
+        - {x: 114, y: -32.5}
+        - {x: 105, y: -40.5}
+      physicsShape:
+      - - {x: -114, y: 40.5}
+        - {x: -114, y: -10.5}
+        - {x: -112, y: -27.5}
+        - {x: -109, y: -28.5}
+        - {x: -29, y: -40.5}
+        - {x: 24, y: -40.5}
+        - {x: 114, y: -28.5}
+        - {x: 114, y: 12.5}
+        - {x: 111, y: 40.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5d56ce3185462c83fbcfc333790b2f
+      internalID: 21300016
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AI_btnBlue
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 416
+        width: 271
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5073801, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -127.5, y: -50}
+        - {x: -135.5, y: -33}
+        - {x: -135.5, y: 45}
+        - {x: -134.5, y: 47}
+        - {x: -127.5, y: 50}
+        - {x: 120.5, y: 50}
+        - {x: 125.5, y: 49}
+        - {x: 135.5, y: 41}
+        - {x: 135.5, y: -49}
+        - {x: 133.5, y: -50}
+      physicsShape:
+      - - {x: -126.5, y: 13}
+        - {x: -121.5, y: -36}
+        - {x: -121.5, y: -37}
+        - {x: 127.5, y: -37}
+        - {x: 127.5, y: 4.999999}
+        - {x: 124.5, y: 44}
+        - {x: -126.5, y: 44}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cb6b49367e46a1b2294452d6bc98f8
+      internalID: 21300018
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AP_InfoBulleSmall
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 343
+        width: 112
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: -28.5}
+        - {x: -56, y: -26.5}
+        - {x: -56, y: 16.5}
+        - {x: -14, y: 28.5}
+        - {x: 19, y: 28.5}
+        - {x: 56, y: 15.5}
+        - {x: 56, y: -28.5}
+      physicsShape:
+      - - {x: -9.999999, y: 28.5}
+        - {x: -56, y: 14.5}
+        - {x: -56, y: -14.5}
+        - {x: -55, y: -27.5}
+        - {x: -54, y: -28.5}
+        - {x: 56, y: -28.5}
+        - {x: 56, y: 14.5}
+        - {x: 14, y: 28.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a3666b4f4b46e68a13a541d35ca796
+      internalID: 21300020
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AW_progressCaseGrey
+      rect:
+        serializedVersion: 2
+        x: 315.0631
+        y: 356.0761
+        width: 105.8608
+        height: 97.84776
+      alignment: 9
+      pivot: {x: 0.5000615, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.99349, y: -48.99999}
+        - {x: -52.99348, y: -0.9999942}
+        - {x: -52.99348, y: 49.00001}
+        - {x: 43.00651, y: 49.00001}
+        - {x: 53.00651, y: 5.000006}
+        - {x: 53.00651, y: -42.99999}
+        - {x: 51.00651, y: -48.99999}
+      physicsShape:
+      - - {x: 43.00651, y: 47.00001}
+        - {x: 40.00651, y: 48.00001}
+        - {x: -44.99349, y: 48.00001}
+        - {x: -46.99349, y: 46}
+        - {x: -46.99349, y: 42.00001}
+        - {x: -36.99349, y: -37.99999}
+        - {x: -33.99349, y: -40.99999}
+        - {x: 51.00651, y: -40.99999}
+        - {x: 53.00651, y: -39.99999}
+        - {x: 53.00651, y: -32.99999}
+        - {x: 51.00651, y: -12.99999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfca2c050d048e2a9c6b95c82efe27e
+      internalID: 21300022
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AI_btnPurple
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 402
+        width: 271
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5073801, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -127.5, y: -50}
+        - {x: -135.5, y: -33}
+        - {x: -135.5, y: 45}
+        - {x: -134.5, y: 47}
+        - {x: -127.5, y: 50}
+        - {x: 120.5, y: 50}
+        - {x: 125.5, y: 49}
+        - {x: 135.5, y: 41}
+        - {x: 135.5, y: -49}
+        - {x: 133.5, y: -50}
+      physicsShape:
+      - - {x: -126.5, y: 13}
+        - {x: -121.5, y: -36}
+        - {x: -121.5, y: -37}
+        - {x: 127.5, y: -37}
+        - {x: 127.5, y: 4.999999}
+        - {x: 124.5, y: 44}
+        - {x: -126.5, y: 44}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d731f49ffb9043e7a9b6ba958176601a
+      internalID: 21300024
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AY_hexaFlag_FR
+      rect:
+        serializedVersion: 2
+        x: 130.0761
+        y: 32
+        width: 112.9239
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5040906, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.53807, y: -64}
+        - {x: -56.53807, y: -35}
+        - {x: -56.53807, y: 34}
+        - {x: -14.53807, y: 64}
+        - {x: 10.46193, y: 64}
+        - {x: 56.46193, y: 37}
+        - {x: 56.46193, y: -38}
+        - {x: 14.46193, y: -64}
+      physicsShape:
+      - - {x: 54.46192, y: 35}
+        - {x: 21.46193, y: 54}
+        - {x: 5.461927, y: 64}
+        - {x: -3.538073, y: 64}
+        - {x: -6.538073, y: 63}
+        - {x: -20.53807, y: 54}
+        - {x: -50.53807, y: 36}
+        - {x: -55.53807, y: 32}
+        - {x: -55.53807, y: -32}
+        - {x: -52.53807, y: -36}
+        - {x: -12.53807, y: -59}
+        - {x: -2.538073, y: -64}
+        - {x: 4.461927, y: -64}
+        - {x: 53.46192, y: -37}
+        - {x: 56.46193, y: -33}
+        - {x: 56.46193, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e1830faf8547f8a7cdf12a7e8aa2b8
+      internalID: 21300026
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BA_hexaFlag_BZL
+      rect:
+        serializedVersion: 2
+        x: 198.0761
+        y: 213
+        width: 112.9239
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5040906, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.53807, y: -64}
+        - {x: -56.53807, y: -49}
+        - {x: -56.53807, y: 43}
+        - {x: -8.538073, y: 64}
+        - {x: 22.46193, y: 64}
+        - {x: 56.46193, y: 38}
+        - {x: 56.46193, y: -40}
+        - {x: 32.46193, y: -64}
+      physicsShape:
+      - - {x: 56.46193, y: -33}
+        - {x: 56.46193, y: 32}
+        - {x: 54.46192, y: 35}
+        - {x: 3.461927, y: 64}
+        - {x: -2.538073, y: 64}
+        - {x: -20.53807, y: 54}
+        - {x: -55.53807, y: 33}
+        - {x: -55.53807, y: -32}
+        - {x: -53.53807, y: -35}
+        - {x: -45.53807, y: -40}
+        - {x: -3.538073, y: -64}
+        - {x: 4.461927, y: -64}
+        - {x: 20.46193, y: -55}
+        - {x: 41.46193, y: -43}
+        - {x: 53.46192, y: -36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf94198f6aa4bf7bfda00f7d77ed00a
+      internalID: 21300028
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AL_progressBar
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 869
+        width: 452
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -224, y: -23}
+        - {x: -226, y: -19}
+        - {x: -226, y: 23}
+        - {x: 224, y: 23}
+        - {x: 226, y: 21}
+        - {x: 226, y: -23}
+      physicsShape:
+      - - {x: -226, y: 23}
+        - {x: -226, y: -15}
+        - {x: -221, y: -16}
+        - {x: 226, y: -16}
+        - {x: 226, y: 23}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e571ed48f724d0a8a875177ade7acf0
+      internalID: 21300030
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AN_PointJauge
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 917
+        width: 468
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -232, y: 10}
+        - {x: -234, y: 28}
+        - {x: -234, y: 53}
+        - {x: 224, y: 53}
+        - {x: 225, y: 50}
+        - {x: 226, y: 41}
+        - {x: 227, y: 33}
+        - {x: 229, y: 15}
+        - {x: 233, y: -19}
+        - {x: 234, y: -28}
+        - {x: 234, y: -53}
+        - {x: -224, y: -53}
+        - {x: -225, y: -50}
+        - {x: -229, y: -16}
+        - {x: -230, y: -7}
+      physicsShape:
+      - - {x: 210, y: 40}
+        - {x: 209, y: 45}
+        - {x: -220, y: 45}
+        - {x: -220, y: 25}
+        - {x: -211, y: -44}
+        - {x: -208, y: -45}
+        - {x: 218, y: -45}
+        - {x: 220, y: -43}
+        - {x: 220, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e795814b3cc14f71a6321d71047a93f3
+      internalID: 21300032
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AV_progressCaseViolet
+      rect:
+        serializedVersion: 2
+        x: 315.0631
+        y: 456.0761
+        width: 105.8608
+        height: 97.84776
+      alignment: 9
+      pivot: {x: 0.5000615, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.99349, y: -48.99999}
+        - {x: -52.99348, y: -0.9999942}
+        - {x: -52.99348, y: 49.00001}
+        - {x: 43.00651, y: 49.00001}
+        - {x: 53.00651, y: 5.000006}
+        - {x: 53.00651, y: -42.99999}
+        - {x: 51.00651, y: -48.99999}
+      physicsShape:
+      - - {x: 43.00651, y: 47.00001}
+        - {x: 40.00651, y: 48.00001}
+        - {x: -44.99349, y: 48.00001}
+        - {x: -46.99349, y: 46}
+        - {x: -46.99349, y: 42.00001}
+        - {x: -36.99349, y: -37.99999}
+        - {x: -33.99349, y: -40.99999}
+        - {x: 51.00651, y: -40.99999}
+        - {x: 53.00651, y: -39.99999}
+        - {x: 53.00651, y: -32.99999}
+        - {x: 51.00651, y: -12.99999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e54e0bdbebb4a9799f999a5da1ca405
+      internalID: 21300034
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_progressBarJauge
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 427
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -213.5, y: -9.5}
+        - {x: -213.5, y: 9.5}
+        - {x: 213.5, y: 9.5}
+        - {x: 213.5, y: -9.5}
+      physicsShape:
+      - - {x: -213.5, y: 9.5}
+        - {x: -213.5, y: -9.5}
+        - {x: 213.5, y: -9.5}
+        - {x: 213.5, y: 6.5}
+        - {x: 212.5, y: 9.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf5c2e6b187443384c7de99f2ae6865
+      internalID: 21300036
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AT_CountTimeBG
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 742
+        width: 114
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: -13}
+        - {x: -57, y: 13}
+        - {x: 57, y: 13}
+        - {x: 57, y: -13}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6f1f94c8954de0aa14f25e20e10719
+      internalID: 21300038
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag:
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:
