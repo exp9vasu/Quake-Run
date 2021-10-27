@@ -4,35 +4,75 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public GameObject Player;
-    public float sideVelocity, forwardVel; 
-        
+    public GameObject Player, Props_secondfloor , WinPanel;
+    public float sideVelocity, forwardVel;
+    public Vector3 CameraPos;
+    public Vector2 lastMousePosition;
+    private Vector2 touchPosition;
+    public bool GameFinished;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameFinished = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0,0,forwardVel*Time.timeScale);
+        if(!GameFinished)
+        {
+            transform.Translate(0, 0, forwardVel * Time.timeScale);
+        }
+
+
+        
+    }
+    private void FixedUpdate()
+    {
 
         if (Input.GetKey("c"))
         {
-            transform.Translate(-sideVelocity*Time.deltaTime, 0, 0 );
+            transform.Translate(-sideVelocity * Time.deltaTime, 0, 0);
         }
         if (Input.GetKey("v"))
         {
             transform.Translate(sideVelocity * Time.deltaTime, 0, 0);
         }
-    }
 
+        if (Input.GetMouseButtonDown(0))
+        {
+            touchPosition = Input.mousePosition;
+        }
+
+        if (Input.GetMouseButton(0))
+        {
+
+            Vector2 deltaSwipe = touchPosition - (Vector2)Input.mousePosition;
+
+            if ((Vector2)Input.mousePosition != lastMousePosition)
+            {
+                lastMousePosition = (Vector2)Input.mousePosition;
+
+                if (deltaSwipe.x < 0)
+                {
+                    transform.Translate(sideVelocity * Time.deltaTime, 0, 0);
+                }
+
+                if (deltaSwipe.x > 0)
+                {
+                    transform.Translate(-sideVelocity * Time.deltaTime, 0, 0);
+                }
+            }
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("cupb"))
         {
-            Player.GetComponent<Animator>().SetBool("nearTable", true);
+            Player.GetComponent<Animator>().SetFloat("Jump Over Float", 1);
+            Player.GetComponent<Animator>().SetTrigger("Jump Over");
+            transform.Translate(0, 1, 0);
         }
 
         if (other.CompareTag("landground"))
@@ -54,15 +94,52 @@ public class PlayerController : MonoBehaviour
             Player.GetComponent<Animator>().SetBool("On Air", true);
             transform.Translate(0, 1, 0);
         }
+
+        if (other.CompareTag("Table"))
+        {
+            Player.GetComponent<Animator>().SetFloat("Jump Over Float", 3);
+            Player.GetComponent<Animator>().SetTrigger("Jump Over");
+            //transform.Translate(0, 1, 0);
+        }
+
+        if (other.CompareTag("Finish"))
+        {
+            Player.GetComponent<Animator>().SetTrigger("PreviewTrail");
+            GetComponent<Rigidbody>().isKinematic = true;
+            GameFinished = true;
+
+            StartCoroutine(ExecuteAfterTime(6));
+            
+        }
     }
 
-    private void OnTriggerExit(Collider other)
+        private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("flight"))
         {
             Player.GetComponent<Animator>().SetBool("On Air", false);
             transform.Translate(0, -1, 0);
+            Props_secondfloor.GetComponent<Animator>().enabled = true;
         }
+
+        if (other.CompareTag("cupb"))
+        {
+            //Player.GetComponent<Animator>().SetFloat("Jump Over Float", 1);
+            //Player.GetComponent<Animator>().SetTrigger("Jump Over");
+            transform.Translate(0, -1, 0);
+        }
+
+        if (other.CompareTag("Table"))
+        {
+            //transform.Translate(0, -1, 0);
+        }
+    }
+    IEnumerator ExecuteAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+        WinPanel.SetActive(true);
+
     }
 
 }

@@ -2,15 +2,31 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1045 &1
 EditorBuildSettings:
+  m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MPM_temp/MadboxSplashScreen.unity
-    guid: 2960c5abb597820429a3374afda9918b
+    path: Assets/Scene/Scenes/Level 4.unity
+    guid: 542570dd86e628f4dae25980045bac5c
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: 2de51d2d8a6d3cf4abce6a206199cd2c
+    path: Assets/Scene/Scenes/Level 5.unity
+    guid: dc0044b86355bce46b5475d4a7eaef76
   - enabled: 1
-    path: Packages/com.madbox.private.mobileconsolekit/Assets/LogConsole.unity
-    guid: 5c3ab5a6e0bec7d499d2abb86da1e36c
+    path: Assets/Scene/Scenes/Level 6.unity
+    guid: 88435560889fcf84db209c61e2d1a2fc
+  - enabled: 1
+    path: Assets/Scene/Scenes/Level 7.unity
+    guid: 3c940bce5ab45214796e6f90590d9521
+  - enabled: 1
+    path: Assets/Scene/Scenes/Level 8.unity
+    guid: 6e5c685f5f6ee6a4ebc4d9fba0cb88f7
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

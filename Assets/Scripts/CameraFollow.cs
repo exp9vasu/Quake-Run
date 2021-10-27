@@ -15,7 +15,7 @@ public class CameraFollow : MonoBehaviour
         CameraPos = transform.position;
         offset = transform.position - Player.transform.position;
 
-        CameraShaker.Instance.StartShake(1f,1f,0.1f);
+        CameraShaker.Instance.StartShake(2f,1f,0.1f);
     }
 
     // Update is called once per frame
