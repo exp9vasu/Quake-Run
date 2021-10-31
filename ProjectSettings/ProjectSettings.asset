@@ -169,8 +169,8 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.redcherry.quakerun
   buildNumber: {}
-  AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 19
+  AndroidBundleVersionCode: 3
+  AndroidMinSdkVersion: 21
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -621,7 +621,9 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    4: TTP_CRASHTOOL;TTP_REWARDED_INTERSTITIALS;TTP_REWARDED_ADS;TTP_RATEUS;TTP_PROMOTION;TTP_PRIVACY_SETTINGS;TTP_POPUPMGR;TTP_OPENADS;TTP_INTERSTITIALS;TTP_GAMEPROGRESSION;TTP_BANNERS;TTP_APPSFLYER;TTP_ANALYTICS
+    7: TTP_CRASHTOOL;TTP_REWARDED_INTERSTITIALS;TTP_REWARDED_ADS;TTP_RATEUS;TTP_PROMOTION;TTP_PRIVACY_SETTINGS;TTP_POPUPMGR;TTP_OPENADS;TTP_INTERSTITIALS;TTP_GAMEPROGRESSION;TTP_BANNERS;TTP_APPSFLYER;TTP_ANALYTICS
   platformArchitecture: {}
   scriptingBackend:
     Android: 1

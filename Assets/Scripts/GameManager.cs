@@ -2,9 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Tabtale.TTPlugins;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
+
+    private void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this;
+        }
+
+        TTPCore.Setup();
+
+        Debug.Log("CLIK done");
+    }
+
     // Start is called before the first frame update
     void Start()
     {
