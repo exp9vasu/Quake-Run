@@ -16,8 +16,21 @@ public class FallMode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(-xDisp * Time.deltaTime, -yDisp * Time.deltaTime, -zDisplacement*Time.deltaTime);
-        
-        
+    //    if (gameObject.tag != null)
+    //    {
+    //        transform.Translate(-xDisp * Time.deltaTime, -yDisp * Time.deltaTime, -zDisplacement * Time.deltaTime);
+    //    }
+
+        if (gameObject.tag == "first" )
+        {
+            iTween.RotateTo(gameObject, iTween.Hash("x", 90, "time", 10));
+            transform.Translate(-xDisp * Time.deltaTime, -yDisp * Time.deltaTime, -zDisplacement * Time.deltaTime);
+        }
+
+        if (PlayerController.instance.isInSecond)
+        {
+            iTween.RotateTo(gameObject, iTween.Hash("x", 90, "time", 20));
+        }
+
     }
 }

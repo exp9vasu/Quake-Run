@@ -4,12 +4,23 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController instance;
+
     public GameObject Player, Props_secondfloor , WinPanel;
     public float sideVelocity, forwardVel;
     public Vector3 CameraPos;
     public Vector2 lastMousePosition;
     private Vector2 touchPosition;
     public bool GameFinished;
+    public bool isInSecond;
+
+    private void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -107,7 +118,6 @@ public class PlayerController : MonoBehaviour
             Player.GetComponent<Animator>().SetTrigger("PreviewTrail");
             GetComponent<Rigidbody>().isKinematic = true;
             GameFinished = true;
-
             StartCoroutine(ExecuteAfterTime(6));
             
         }
@@ -120,6 +130,7 @@ public class PlayerController : MonoBehaviour
             Player.GetComponent<Animator>().SetBool("On Air", false);
             transform.Translate(0, -1, 0);
             Props_secondfloor.GetComponent<Animator>().enabled = true;
+            isInSecond = true;
         }
 
         if (other.CompareTag("cupb"))

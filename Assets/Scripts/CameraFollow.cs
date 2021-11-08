@@ -14,7 +14,7 @@ public class CameraFollow : MonoBehaviour
     {
         CameraPos = transform.position;
         offset = transform.position - Player.transform.position;
-
+        //iTween.ShakePosition(gameObject, iTween.Hash("y", 1));
         CameraShaker.Instance.StartShake(2f,1f,0.1f);
     }
 
@@ -22,5 +22,7 @@ public class CameraFollow : MonoBehaviour
     void Update()
     {
         transform.position = new Vector3(Player.transform.position.x, CameraPos.y, Player.transform.position.z + offset.z - 1);
+
+        //iTween.ShakePosition(gameObject, iTween.Hash("y", 1));
     }
 }

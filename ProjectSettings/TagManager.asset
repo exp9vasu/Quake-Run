@@ -10,6 +10,8 @@ TagManager:
   - landground
   - slidetable
   - flight
+  - first
+  - second
   layers:
   - Default
   - TransparentFX

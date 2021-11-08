@@ -13,8 +13,8 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Red Cherry Studio
-  productName: com.redcherry.quakerun
-  defaultCursor: {fileID: 0}
+  productName: Quake Run
+  defaultCursor: {fileID: 2800000, guid: 74023140ca310044797a660dbbb87b51, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0.9286411, b: 1, a: 1}
   m_ShowUnitySplashScreen: 1
@@ -169,7 +169,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.redcherry.quakerun
   buildNumber: {}
-  AndroidBundleVersionCode: 3
+  AndroidBundleVersionCode: 6
   AndroidMinSdkVersion: 21
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
