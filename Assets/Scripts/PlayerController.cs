@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using EZCameraShake;
 
 public class PlayerController : MonoBehaviour
 {
     public static PlayerController instance;
 
-    public GameObject Player, Props_secondfloor , WinPanel;
+    public GameObject Player, Props_secondfloor , WinPanel, Confetti;
     public float sideVelocity, forwardVel;
     public Vector3 CameraPos;
     public Vector2 lastMousePosition;
@@ -108,18 +109,25 @@ public class PlayerController : MonoBehaviour
 
         if (other.CompareTag("Table"))
         {
+            Player.GetComponent<Animator>().SetFloat("Jump Over Float", 6);
+            Player.GetComponent<Animator>().SetTrigger("Jump Over");
+            //transform.Translate(0, 1, 0);
+        }
+        if (other.CompareTag("thirdTable"))
+        {
             Player.GetComponent<Animator>().SetFloat("Jump Over Float", 3);
             Player.GetComponent<Animator>().SetTrigger("Jump Over");
             //transform.Translate(0, 1, 0);
         }
-
         if (other.CompareTag("Finish"))
         {
             Player.GetComponent<Animator>().SetTrigger("PreviewTrail");
             GetComponent<Rigidbody>().isKinematic = true;
             GameFinished = true;
             StartCoroutine(ExecuteAfterTime(6));
-            
+            Confetti.SetActive(true);
+
+            CameraShaker.Instance.enabled = false;
         }
     }
 

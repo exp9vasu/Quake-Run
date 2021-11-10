@@ -15,7 +15,7 @@ public class CameraFollow : MonoBehaviour
         CameraPos = transform.position;
         offset = transform.position - Player.transform.position;
         //iTween.ShakePosition(gameObject, iTween.Hash("y", 1));
-        CameraShaker.Instance.StartShake(2f,1f,0.1f);
+        CameraShaker.Instance.StartShake(5f,2f,0.1f);
     }
 
     // Update is called once per frame

@@ -12,6 +12,7 @@ TagManager:
   - flight
   - first
   - second
+  - thirdTable
   layers:
   - Default
   - TransparentFX
